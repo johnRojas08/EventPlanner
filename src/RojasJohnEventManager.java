@@ -4,9 +4,8 @@ import java.util.Scanner;
 // Clase que maneja la lógica del programa y la interacción con el usuario
 public class RojasJohnEventManager {
     private ArrayList<RojasJohnEvent> events = new ArrayList<>(); // Lista de eventos
-    private Scanner scanner = new Scanner(System.in);    // Escáner para entrada del usuario
+    private Scanner scanner = new Scanner(System.in);            // Escáner para entrada del usuario
 
-    // Método principal que muestra el menú y gestiona las opciones
     public void run() {
         while (true) {
             System.out.println("\nBienvenido a Event Planner. Seleccione una opción");
@@ -40,15 +39,7 @@ public class RojasJohnEventManager {
         }
     }
 
-    // Método para añadir un evento
-    private void addEvent() { /* Código completo aquí */ }
 
-    // Método para borrar un evento
-    private void deleteEvent() { /* Código completo aquí */ }
 
-    // Método para listar eventos
-    private void listEvents() { /* Código completo aquí */ }
 
-    // Método para marcar o desmarcar tareas
-    private void toggleTaskStatus() { /* Código completo aquí */ }
 }
